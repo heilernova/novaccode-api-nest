@@ -1,0 +1,26 @@
+debug: true
+
+http:
+  host: 'localhost'
+  port: 3010
+
+databases:
+  postgres:
+    admin:
+      host: 'localhost'
+      user: 'postgres'
+      password: '1007244088'
+      port: 5432
+      database: 'yaml-db'
+    data:
+      host: 'localhost'
+      user: 'postgres'
+      password: '1007244088jhnc.'
+      port: 5432
+      database: 'data'
+    accounts:
+      host: 'localhost'
+      user: 'postgres'
+      password: '1007244088'
+      port: 5432
+      database: 'yaml-db'
